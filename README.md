@@ -9,6 +9,10 @@ status](https://ci.appveyor.com/api/projects/status/a314mt4b1b60tms5?svg=true)](
 [![Coverage
 Status](https://codecov.io/github/paulnorthrop/accessr/coverage.svg?branch=master)](https://app.codecov.io/github/paulnorthrop/accessr?branch=master)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/accessr)](https://cran.r-project.org/package=accessr)
+[![Downloads
+(monthly)](https://cranlogs.r-pkg.org/badges/accessr?color=brightgreen)](https://cran.r-project.org/package=accessr)
+[![Downloads
+(total)](https://cranlogs.r-pkg.org/badges/grand-total/accessr?color=brightgreen)](https://cran.r-project.org/package=accessr)
 
 ## Command Line Tools to Produce Accessible Documents using R Markdown
 
@@ -130,3 +134,11 @@ files and Word document with 18pt bold text. The latter may be
 particularly useful for some students. I use `params$hide` (see above)
 to hide selected content from the file that I share with the students
 prior to the lecture.
+
+## Installation
+
+To get the current released version from CRAN:
+
+``` r
+install.packages("accessr")
+```
