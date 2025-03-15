@@ -1,4 +1,10 @@
-# accessr 1.0.1.9000
+# accessr 1.1.2
+
+## Bug fixes and minor improvements
+
+This is a temporary patch to fix the issues at https://cran.r-project.org/web/checks/check_results_accessr.html, which stem from a call to strsplit() in officedown:::get_fun()
+
+# accessr 1.1.1
 
 ## New features
 
